@@ -20,11 +20,11 @@ body {
     cursor: pointer;
     width: 100px;
     height: 100px;
-    background: #f6da17 url(images/title.png) center center no-repeat;
+    background: #cbf7c6 url(images/title.png) center center no-repeat;
 }
 
 .game-tile:hover {
-    background-color:#F7C11A;
+    background-color:#cbf7c6;
 }
 
 .game-score {
