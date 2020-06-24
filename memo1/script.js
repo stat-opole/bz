@@ -1,6 +1,6 @@
 ﻿const memoryGame = {
-    tileCount : 60, //liczba klocków
-    tileOnRow : 10, //liczba klocków na rząd    
+    tileCount : 20, //liczba klocków
+    tileOnRow : 5, //liczba klocków na rząd
     divBoard : null, //div z planszą gry
     divScore : null, //div z wynikiem gry
     tiles : [], //tutaj trafi wymieszana tablica klocków
@@ -16,28 +16,7 @@
         "images/title_7.png",
         "images/title_8.png",
         "images/title_9.png",
-        "images/title_10.png",
-        "images/title_11.png",
-        "images/title_12.png",
-        "images/title_13.png",
-        "images/title_14.png",
-        "images/title_15.png",
-        "images/title_16.png",
-        "images/title_17.png",
-        "images/title_18.png",
-        "images/title_19.png",
-        "images/title_20.png",
-        "images/title_21.png",
-        "images/title_22.png",
-        "images/title_23.png",
-        "images/title_24.png",
-        "images/title_25.png",
-        "images/title_26.png",
-        "images/title_27.png",
-        "images/title_28.png",
-        "images/title_29.png",
-        "images/title_30.png"
-
+        "images/title_10.png"
     ],
     canGet : true, //czy można klikać na kafelki
     tilePairs : 0, //liczba dopasowanych kafelkow
