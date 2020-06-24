@@ -54,7 +54,7 @@
 
         this.tilePairs++;
         if (this.tilePairs >= this.tileCount / 2) {
-            alert("HASŁO: Ala ma kota");
+            alert("HASŁO: Hakuna matata");
         }
     },
 
