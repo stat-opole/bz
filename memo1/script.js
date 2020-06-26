@@ -39,7 +39,6 @@
                 } else {
                     setTimeout(this.resetTiles.bind(this), 500);
                 }
-
                 this.moveCount++;
 		        this.dataczas= new Date();
                 this.divScore.innerText = this.moveCount;
