@@ -6,6 +6,7 @@
     tiles : [], //tutaj trafi wymieszana tablica klocków
     tilesChecked : [], //zaznaczone klocki
     moveCount : 0, //liczba ruchów
+    dataczas : 0, //data i czas
     tilesImg : [ //grafiki dla klocków
         "images/title_1.png",
         "images/title_2.png",
@@ -40,7 +41,9 @@
                 }
 
                 this.moveCount++;
+		        this.dataczas= new Date();
                 this.divScore.innerText = this.moveCount;
+                this.divScore.innerText = 'Liczba : ' + this.divScore.innerText +', data: '+ this.dataczas.toLocaleDateString() +', godzina: '+ this.dataczas.getHours() +':'+ this.dataczas.getMinutes() +':'+ this.dataczas.getSeconds();
             }
         }
     },
