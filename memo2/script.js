@@ -78,7 +78,7 @@
 
         this.tilePairs++;
         if (this.tilePairs >= this.tileCount / 2) {
-            alert("HASŁO: Nabuchodonozor");
+            alert("HASŁO: Liczy się rolnictwo");
         }
     },
 
