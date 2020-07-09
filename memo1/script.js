@@ -56,7 +56,7 @@
 
         this.tilePairs++;
         if (this.tilePairs >= this.tileCount / 2) {
-            alert("HASŁO: Hakuna matata");
+            alert("HASŁO: Liczy się rolnictwo");
         }
     },
 
